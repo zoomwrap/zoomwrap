@@ -8,7 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(55, 53, 77);
+    background-color: rgb(252, 252, 252);
     padding: 10px 20px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,7 +17,7 @@ header {
 .title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: red
+    color: rgb(103, 101, 101)
 }
 
 a {
@@ -50,7 +50,7 @@ nav ul li {
 
 /* Links i menuen */
 nav ul li a {
-    color: rgb(162, 157, 223);
+    color: rgb(101, 100, 112);
     text-decoration: none;
     padding: 10px 15px;
     display: inline-block;
@@ -58,8 +58,8 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    color: red;
-    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
 }
 
 /* Dropdown container */
