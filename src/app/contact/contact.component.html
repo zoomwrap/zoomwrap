@@ -15,7 +15,11 @@
 
     <!-- Højre halvdel: Kontaktformular -->
     <section class="w-full md:w-1/2 bg-white flex items-start justify-center pt-24 p-16 h-full">
-        <form (submit)="onSubmit($event)" class="w-full max-w-lg space-y-6" novalidate>
+        <div>
+            <img src="images/kim.jpg" alt="">
+        </div>
+
+        <!-- <form (submit)="onSubmit($event)" class="w-full max-w-lg space-y-6" novalidate>
             <div>
                 <label for="name" class="block text-sm font-medium text-gray-700">Navn:</label>
                 <input type="text" id="name" name="name" [(ngModel)]="formData.name" required
@@ -41,7 +45,7 @@
                 class="w-full bg-gray-600 text-white font-semibold py-3 rounded hover:bg-gray-700 transition">
                 Send
             </button>
-        </form>
+        </form> -->
 
     </section>
 </main>
