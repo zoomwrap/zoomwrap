@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 66vh;
     /* Sæt hero-billedet her; URL skal pege på det valgte billede */
-    background: url('/images/landskab.jpg') no-repeat center center;
+    background: url('images/skovflod.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
 }
